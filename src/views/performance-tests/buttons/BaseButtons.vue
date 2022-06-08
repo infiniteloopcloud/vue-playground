@@ -1,14 +1,14 @@
 <script lang="ts">
-import Vue from "vue";
+import { defineComponent } from "vue";
 import BaseButton from "@/components/BaseButton.vue";
 
-export default Vue.extend({
+export default defineComponent({
   components: { BaseButton },
 });
 </script>
 
 <template>
   <div>
-    <base-button v-for="n in 1000" :key="n">Test</base-button>
+    <base-button v-for="n in 10000" :key="n">Test</base-button>
   </div>
 </template>

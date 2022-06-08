@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button v-for="n in 1000" :key="n" class="button error">Test</button>
+    <button v-for="n in 10000" :key="n" class="button error">Test</button>
   </div>
 </template>
 
